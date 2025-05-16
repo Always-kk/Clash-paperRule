@@ -1,6 +1,6 @@
 # Clash-paperRule
 Clash文献出版社直接代理规则  
-在校使用校园网浏览下载文献时，跳过这些出版社的网站代理 使用方式: Clash中点击配置那块, 选中一个配置编辑, 将规则添加至最后, 看配置文件具体情况缩进和添加单引号
+在校使用校园网浏览下载文献时，跳过这些出版社的网站代理 使用方式: Clash中点击订阅, 选中一个订阅链接, 邮件编辑文件，打开后把以下规则添加至最后。如想添加新的规则，可以按照关键词添加。
 
 ```
 - DOMAIN-SUFFIX,manual.gromacs.org,DIRECT
@@ -21,4 +21,6 @@ Clash文献出版社直接代理规则
 - DOMAIN-SUFFIX,webofknowledge.com,DIRECT
 - DOMAIN-SUFFIX,pubs.acs.org,DIRECT
 - DOMAIN-SUFFIX,scitation.org,DIRECT
+- DOMAIN-KEYWORD,dafoai,DIRECT
+- DOMAIN-KEYWORD,tianyi,DIRECT
 ```
