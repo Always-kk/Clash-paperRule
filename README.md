@@ -23,4 +23,5 @@ Clash文献出版社直接代理规则
 - DOMAIN-SUFFIX,scitation.org,DIRECT
 - DOMAIN-KEYWORD,dafoai,DIRECT
 - DOMAIN-KEYWORD,tianyi,DIRECT
+- DOMAIN-KEYWORD,weixin.qq,DIRECT
 ```
